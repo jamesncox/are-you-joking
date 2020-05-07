@@ -1,6 +1,6 @@
 import React from "react";
-import "./App.css";
-import "./responsive.css"
+import "./stylesheets/App.css";
+import "./stylesheets/responsive.css"
 import JokeContainer from "./JokeContainer"
 
 export default function App() {
