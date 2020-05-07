@@ -1,38 +1,77 @@
 .App {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgba(0, 0, 0, 0.95);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wrapper {
+  border: solid rgba(0, 0, 0, 0.76) 1px;
+  border-radius: .10in;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  min-height: 650px;
+  background: #FF416C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgba(255, 255, 255, 0.90);
+  padding: 20px;
+  margin: 10px;
+  border-radius: .1in;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  margin: 5px;
+  border-radius: .1in;
+  background-color: rgb(236, 235, 235);
+  box-shadow: 2px 2px 6px rgba(214, 214, 214, 0.418);
+  font-size: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  font-size: 30px;
+  margin: 20px;
+  color: rgba(255, 255, 255, 0.90);
 }
+
+.fade-in {
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+  }
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
