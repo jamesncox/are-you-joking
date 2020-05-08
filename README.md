@@ -2,7 +2,7 @@ https://are-you-joking.netlify.app/
 
 Are You Joking utilizes an API, https://github.com/15Dkatz/official_joke_api, that generates random jokes. 
 
-Are You Joking features a React front end.
+Are You Joking features a React front end and Redux to manage state.
 
 It incorporates the CSS fade-in transition property.
 
